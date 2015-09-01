@@ -1,0 +1,11 @@
+﻿.below-navbar{
+    position: absolute;
+    top: 10%;
+}
+
+.countdown-clock-wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

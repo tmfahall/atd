@@ -1,0 +1,6 @@
+C:\Users\tmfah\Documents\Visual Studio 2013\Projects\ATD\ADT\bin\ADT.dll.config
+C:\Users\tmfah\Documents\Visual Studio 2013\Projects\ATD\ADT\bin\ADT.dll
+C:\Users\tmfah\Documents\Visual Studio 2013\Projects\ATD\ADT\bin\ADT.pdb
+C:\Users\tmfah\Documents\Visual Studio 2013\Projects\ATD\ADT\obj\Release\ADT.csprojResolveAssemblyReference.cache
+C:\Users\tmfah\Documents\Visual Studio 2013\Projects\ATD\ADT\obj\Release\ADT.dll
+C:\Users\tmfah\Documents\Visual Studio 2013\Projects\ATD\ADT\obj\Release\ADT.pdb

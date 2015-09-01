@@ -1,0 +1,187 @@
+﻿.imageBar {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background-size: cover;
+    background-position-y: center;
+    background-image: url('../Images/ATDBackground.jpg');
+}
+
+.pageBoxBottom {
+    position: absolute;
+    top: 5%;
+    bottom: 5%;
+    left: 3%;
+    right: 3%;
+    background-color: #edede1;
+    border: 5px solid #006EB8;
+}
+
+.pageBoxTop {
+    position: absolute;
+    top: 7%;
+    bottom: 7%;
+    left: 4%;
+    right: 4%;
+    background-color: #006EB8;
+}
+
+.atdBody {
+    position: absolute;
+    top: 12%;
+    left: 10%;
+    right: 10%;
+}
+
+    .atdBody h1 {
+        font-size: 11vw;
+        text-shadow: .3vw .3vw #6e0309;
+        color: #edede1;
+        font-family: Impact, Charcoal, sans-serif;
+        line-height: 90%;
+    }
+
+    .atdBody h2 {
+        font-size: 9vw;
+        text-shadow: .3vw .3vw #6e0309;
+        color: #edede1;
+        font-family: Impact, Charcoal, sans-serif;
+        line-height: 80%;
+    }
+
+    .atdBody h3 {
+        font-size: 7vw;
+        color: #edede1;
+        font-family: Impact, Charcoal, sans-serif;
+        line-height: 80%;
+    }
+
+    .atdBody h4 {
+        font-size: 3vw;
+        color: #edede1;
+        font-family: Impact, Charcoal, sans-serif;
+        line-height: 80%;
+    }
+
+    .atdBody h5 {
+        font-size: 1vw;
+        color: #edede1;
+        font-family: Impact, Charcoal, sans-serif;
+        line-height: 80%;
+    }
+
+    .atdBody h6 {
+        font-size: 1.5vw;
+        color: #edede1;
+        font-family: 'Lucida Console', 'Lucida Sans Typewriter', monaco, 'Bitstream Vera Sans Mono', monospace;
+        line-height: 100%;
+    }
+
+    .atdBody h7 {
+        font-size: 1.6vw;
+        color: #000000;
+        font-family: abel;
+        line-height: 100%;
+    }
+
+    .atdBody h8 {
+        font-size: 3vw;
+        color: #edede1;
+        font-family: Impact, Charcoal, sans-serif;
+        line-height: 110%;
+    }
+
+.lineOne {
+    text-align: center;
+}
+
+.lineTwo {
+    top: 40%;
+    text-align: center;
+}
+
+.lineThree {
+    top: 55%;
+    text-align: center;
+}
+
+.lineFour {
+    top: 70%;
+    text-align: center;
+}
+
+.lineFive {
+    padding-top: 2vw;
+    text-align: center;
+}
+
+.aboutTitle {
+    position: fixed;
+    top: 12%;
+    left: 28%;
+}
+
+.about {
+    position: fixed;
+    top: 20%;
+    left: 5%;
+    right: 5%;
+}
+
+.koryName {
+    position: fixed;
+    top: 30%;
+    right: 11%;
+}
+
+.theAndersonsImg {
+    position: fixed;
+    top: 35%;
+    bottom: 80%;
+    left: 5%;
+    right: 55%;
+    background-color: black;
+    opacity: .5;
+    height: 50%;
+    width: auto;
+}
+
+.theAndersonsTitle {
+    position: fixed;
+    top: 85%;
+    left: 19%;
+}
+
+.theStaff {
+    position: fixed;
+    top: 35%;
+    bottom: 80%;
+    right: 20%;
+    left: 20%;
+}
+
+.theStaffTitle {
+    position: relative;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.theStaffImageBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.theStaffImage {
+    height: 25vw;
+    width: auto;
+}
+
+.tableServices {
+    position: fixed;
+    top: 50%;
+    left: 20%;
+    right: 20%;
+}

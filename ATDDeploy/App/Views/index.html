@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="ATD">
+<head>
+    <meta charset="utf-8">
+    <meta name="title" content="{{metadata.title}}" />
+    <meta name="description" content="{{metadata.description}}" />
+
+    <title ng-bind="header"></title>
+
+    <link href="../../Content/bootstrap.css" rel="stylesheet" />
+    <link href="../../Content/ADT_CustomStyling.css" rel="stylesheet" />
+    <link href="../../Content/flipclock.css" rel="stylesheet" />
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="imageBar"></div>
+            <div class="pageBoxBottom"></div>
+            <div class="pageBoxTop">
+                <nav class="navbar navbar-default navbar-static-top navbar-inverse" role="navigation">
+                    <div class="navbar-header">
+
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                        </button> <a class="navbar-brand" href="#/home">Anderson</a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li ng-class="{active: $route.current.activetab == 'home'}"><a href="#/home">Home</a></li>
+                            <li ng-class="{active: $route.current.activetab == 'about'}"><a href="#/about">About</a></li>
+                            <!--<li ng-class="{active: $route.current.activetab == 'services'}"><a href="#/services">Services</a></li>-->
+                            <li ng-class="{active: $route.current.activetab == 'parts'}"><a href="#/parts">Parts</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="atdBody">
+                <div ng-view=""></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="../../Scripts/jquery-1.10.2.js"></script>
+    <script src="../../Scripts/bootstrap.js"></script>
+    <script src="../../Scripts/angular.js"></script>
+    <script src="../../Scripts/angular-route.js"></script>
+    <script src="../../Scripts/angular-ui/ui-bootstrap-tpls.js"></script>
+    <script src="../../Scripts/ATD_CustomScript.js"></script>
+
+    <script src="../App.js"></script>
+
+    <script src="../Controllers/aboutController.js"></script>
+    <script src="../Controllers/homeController.js"></script>
+    <script src="../Controllers/servicesController.js"></script>
+
+    <script src="../Services/aboutService.js"></script>
+    <script src="../Services/homeService.js"></script>
+    <script src="../Services/servicesService.js"></script>
+</body>
+</html>

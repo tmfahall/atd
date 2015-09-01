@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="ATD">
+<head>
+    <title></title>
+    <link href="../../Content/bootstrap.css" rel="stylesheet" />
+    <link href="../../Content/ADT_CustomStyling.css" rel="stylesheet" />
+    <link href="../../Content/flipclock.css" rel="stylesheet" />
+</head>
+<body>
+    <!--UNCOMMENT THIS TO LAUNCH SITE-->
+<!--
+            <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+                        <div class="navbar-header">
+
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                            </button> <a class="navbar-brand" href="#/home">ATD</a>
+                        </div>
+
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li ng-class="{active: $route.current.activetab == 'home'}"><a href="#/home">Home</a></li>
+                                <li ng-class="{active: $route.current.activetab == 'about'}"><a href="#/about">About</a></li>
+                                <li ng-class="{active: $route.current.activetab == 'services'}"><a href="#/services">Services</a></li>
+                            </ul>
+                        </div>
+
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <div class="below-navbar" ng-view="">
+
+        </div>
+-->
+
+    <!--COMMENT THIS OUT TO LAUNCH SITE-->
+    <div class="countdown-clock-wrapper">
+        <h1 class="text-center">Coming Soon</h1>
+        <br />
+        <div class="countdown-clock">
+        </div>
+    </div>
+
+    <script src="../../Scripts/jquery-1.9.0.js"></script>
+    <script src="../../Scripts/bootstrap.js"></script>
+    <script src="../../Scripts/angular.js"></script>
+    <script src="../../Scripts/angular-route.js"></script>
+    <script src="../../Scripts/angular-ui/ui-bootstrap-tpls.js"></script>
+    <script src="../../Scripts/ATD_CustomScript.js"></script>
+
+    <script src="../../Scripts/flipclock.js"></script>
+    <script src="../../Scripts/clockScripts.js"></script>
+
+    <script src="../App.js"></script>
+
+    <script src="../Controllers/aboutController.js"></script>
+    <script src="../Controllers/homeController.js"></script>
+    <script src="../Controllers/servicesController.js"></script>
+
+    <script src="../Services/aboutService.js"></script>
+    <script src="../Services/homeService.js"></script>
+    <script src="../Services/servicesService.js"></script>
+</body>
+</html>
