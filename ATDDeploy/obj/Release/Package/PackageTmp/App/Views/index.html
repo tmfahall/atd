@@ -31,8 +31,8 @@
                         <ul class="nav navbar-nav navbar-right">
                             <li ng-class="{active: $route.current.activetab == 'home'}"><a href="#/home">Home</a></li>
                             <li ng-class="{active: $route.current.activetab == 'about'}"><a href="#/about">About</a></li>
-                            <!--<li ng-class="{active: $route.current.activetab == 'services'}"><a href="#/services">Services</a></li>
-                            <li ng-class="{active: $route.current.activetab == 'parts'}"><a href="#/parts">Parts</a></li>-->
+                            <!--<li ng-class="{active: $route.current.activetab == 'services'}"><a href="#/services">Services</a></li>-->
+                            <li ng-class="{active: $route.current.activetab == 'parts'}"><a href="#/parts">Parts</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -57,10 +57,12 @@
 
     <script src="../Controllers/aboutController.js"></script>
     <script src="../Controllers/homeController.js"></script>
+    <script src="../Controllers/partsController.js"></script>
     <script src="../Controllers/servicesController.js"></script>
 
     <script src="../Services/aboutService.js"></script>
     <script src="../Services/homeService.js"></script>
+    <script src="../Services/partsService.js"></script>
     <script src="../Services/servicesService.js"></script>
 </body>
 </html>

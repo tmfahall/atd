@@ -1,5 +1,4 @@
-﻿/// <reference path="Views/services.html" />
-angular.module('ATD', ['ngRoute', 'ui.bootstrap'])
+﻿angular.module('ATD', ['ngRoute', 'ui.bootstrap'])
 
 .config(['$routeProvider', '$httpProvider', function ($routeProvider, $httpProvider) {
 
@@ -23,16 +22,26 @@ angular.module('ATD', ['ngRoute', 'ui.bootstrap'])
         controller: 'homeController',
         caseInsensitiveMatch: true,
         activetab: 'home'
-    }).when('/parts', {      //view home
+    }).when('/parts', {      //view parts
         templateUrl: 'parts.html',
         controller: 'partsController',
         caseInsensitiveMatch: true,
         activetab: 'parts'
-    }).when('/parts/cities', {      //view home
+    }).when('/cities', {      //view cities
         templateUrl: 'cities.html',
         controller: 'citiesController',
         caseInsensitiveMatch: true,
         activetab: 'home'
+    }).when('/eBay', {      //view eBay listings
+        templateUrl: 'eBay.html',
+        controller: 'eBayController',
+        caseInsensitiveMatch: true,
+        activetab: 'eBay'
+    }).when('/amazon', {      //view Amazon Listings
+        templateUrl: 'amazon.html',
+        controller: 'amazonController',
+        caseInsensitiveMatch: true,
+        activetab: 'amazon'
     }).otherwise('/');
 
 }]);

@@ -1,5 +1,4 @@
-﻿/// <reference path="Views/services.html" />
-angular.module('ATD', ['ngRoute', 'ui.bootstrap'])
+﻿angular.module('ATD', ['ngRoute', 'ui.bootstrap'])
 
 .config(['$routeProvider', '$httpProvider', function ($routeProvider, $httpProvider) {
 

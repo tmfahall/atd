@@ -1,1 +1,14 @@
-﻿
+﻿<div class="titleBox">
+    <h4 class="title">- Parts -</h4>
+</div>
+
+<div class="about">
+    <table class="table-responsive table table-bordered">
+        <tr ng-repeat="b in brandsCarried track by $index" ng-if="$index%4==0">
+            <td ng-repeat="i in [$index,$index+1,$index+2,$index+3]" ng-if="brandsCarried[i]!=null"><h9>{{brandsCarried[i]}}</h9></td>
+        </tr>
+    </table>
+    <div class="theStaffTitle">
+        <h9>We carry or can get products from these brands and many more. Call or stop in for pricing.</h9>   
+    </div>
+</div>

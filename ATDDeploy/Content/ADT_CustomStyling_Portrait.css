@@ -93,6 +93,13 @@
         line-height: 110%;
     }
 
+    .atdBody h9 {
+        font-size: 1.1vw;
+        color: #000000;
+        font-family: abel;
+        line-height: 80%;
+    }
+
 .lineOne {
     text-align: center;
 }
@@ -117,10 +124,15 @@
     text-align: center;
 }
 
-.aboutTitle {
+.titleBox {
     position: fixed;
-    top: 12%;
-    left: 28%;
+    top: 13%;
+    width: 80%;
+}
+
+.title {
+    position: relative;
+    text-align: center;
 }
 
 .about {
@@ -184,4 +196,18 @@
     top: 50%;
     left: 20%;
     right: 20%;
+}
+
+table {
+    table-layout: fixed;
+}
+
+tr {
+    width: 4vw;
+    text-align: center;
+}
+
+img {
+    width: auto;
+    height: 100%;
 }

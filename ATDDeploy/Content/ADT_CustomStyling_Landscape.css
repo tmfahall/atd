@@ -207,3 +207,13 @@ tr {
     text-align: center;
 }
 
+img {
+    width: auto;
+    height: 100%;
+}
+
+.img80pct {
+    width: auto;
+    height: 80%;
+}
+
